@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(243, 237, 229);
+    font-family: arial;
+    color: navy;
+}
+
+h1, h2{
+    color: rgb(143, 5, 5);
+    text-align: center;
+    border-style: solid;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2%;
+    border-radius: 20px;
+    border-color:rgb(119, 80, 156);
+}
+
+h2{
+    font-size: 18px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 1%;
+}
+
+p::first-letter{
+    margin-left: 30px;
+}
+
+#origen{
+    text-align: right;
+    font-weight: bold;
+}
